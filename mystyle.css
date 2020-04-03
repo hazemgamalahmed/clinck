@@ -2,31 +2,191 @@
 	margin:0;
 	padding:0;
 	color:#563d7c;
+	font-family:Arial, Tahoma;
 }
 .navbar-light .navbar-nav .active>.nav-link{
 	color:#000;
 }
 .navbar-light .navbar-nav .nav-link{
 	color:#00f;
+	margin:5px;
 }
+/*start plastic clinck*/
 .plastiClink{
 	width:100%
 	background-color:#f00;
-	height:800px;
+	height:600px;
 	overflow:hidden;
 }
 .myplastic{
 	height:100%;
 	background-color:#fcfcfc;
-	width:50%;
+	width:25%;
 	float:left;
 }
 .image{
 	float:right;
 	height:100%;
-	width:50%;
+	width:75%;
 }
 .image img{
 	/*width:100%;*/
 	height:100%;
 }
+.plastiClink .myplastic .learnmore{
+	margin-top:60%;
+}
+.plastiClink .myplastic .learnmore h1{
+	text-transform:uppercase;
+}
+.plastiClink .myplastic .learnmore p{
+	text-transform:capitalize;
+}
+.operations{
+	margin-top:30px;
+	width:200px;
+	font-weight:bold;
+	text-transform:capitalize;
+	color:#FFF;
+	background-color:#563d7c;
+	padding:5px;
+	border:none;
+}
+/*end plastic clink*/
+/*start youtube*/
+.youtube{
+	height:367px;
+	margin-top:70px;
+}
+/*end youtube*/
+/*start face operations*/
+.faceoperations{
+	overflow:hidden;
+
+	/*background-color:#000;*/
+}
+.faceoperations img{
+	width:100%;
+	transition:all 1s;
+}
+.faceoperations h1{
+	text-align:center;
+	text-transform:capitalize;
+
+}
+.faceoperations .imgstyle{
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+}
+.faceoperations .imgstyle .caption{
+	background-color: rgba(0,51,153,0.2);
+	top:0;
+	position:absolute;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	left:100%;
+	transition:all 1s;
+}
+.faceoperations .imgstyle:hover .caption{
+	left:0;
+	transform:rotate(-360deg);
+}
+.faceoperations .imgstyle:hover img{
+	transform:scale(1.5, 1.5);
+}
+.faceoperations .imgstyle .caption button{
+	bottom:100%;
+	position:relative;
+	transition:all 1s;
+	background:none;
+	width:200px;
+	text-transform:capitalize;
+	padding:10px;
+	color:#fff;
+	border:1px solid #fff;
+	transition-delay:2s;
+	overflow:hidden;
+}
+.faceoperations .imgstyle .caption:hover button{
+	bottom:0;
+	top:50%;
+}
+/*end face operations*/
+/*start our doctor*/
+.ourDoctor{
+	height:600px;
+	margin-top:100px;
+	background-image:url('assets/photo-1543325042-c67825847491.png');
+	background-size:cover;
+	overflow:hidden;
+	margin-bottom:80px;
+}
+.ourDoctor .mycover{
+	background-color:rgba(0,51,153,0.2);
+	height:100%;
+	padding:10px;
+	overflow:hidden;
+	position:relative;
+}
+.ourDoctor .mycover .title h1{
+	color:#FFF;
+	text-transform:capitalize;
+	margin-top:50px;
+}
+.ourDoctor .mycover .docs .docim{
+	float:right;
+	position:relative;
+	overflow:hidden;
+}
+.ourDoctor .mycover .docs{
+	position:relative;
+	overflow:hidden;
+}
+.ourDoctor .mycover .docs .docim img{
+	width:275px;
+	margin-right:20px;
+	border-radius:100%;
+}
+.ourDoctor .mycover .docs .docim{
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	text-transform:capitalize;
+
+}
+.ourDoctor .mycover .docs .docim .newcaption{
+	position:absolute;
+	overflow:hidden;
+	background-color:rgba(0,51,153,0.2);
+	top:0;
+	right:100%;
+	height:100%;
+	width:100%;
+	border-radius:100%;
+	width:100%;
+	height:100%;
+	transition:all 1s;
+}
+.ourDoctor .mycover .docs .docim:hover .newcaption{
+	right:0;
+	transform:rotate(-360deg);
+}
+.ourDoctor .mycover .docs .docim .newcaption span{
+	color:#fff;
+	position:relative;
+	bottom:100%;
+}
+.ourDoctor .mycover .docs .docim .newcaption:hover span{
+	bottom:0;
+	top:50%;
+	/*position:relative;*/
+}
+.ourDoctor .points{
+	color:#FFF;
+	font-weight:bold;
+}
+/*end our doctor*/
