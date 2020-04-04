@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-	color:#563d7c;
+	color:#272861;
 	font-family:Arial, Tahoma;
 }
 .navbar-light .navbar-nav .active>.nav-link{
@@ -145,7 +145,7 @@
 	overflow:hidden;
 }
 .ourDoctor .mycover .docs .docim img{
-	width:275px;
+	width:100%;
 	margin-right:20px;
 	border-radius:100%;
 }
@@ -154,7 +154,11 @@
 	overflow:hidden;
 	text-align:center;
 	color:#FFF;
+	width:275px;
+	background-color:#FFF;
+	margin-right:10px;
 	font-weight:bold;
+	border-radius:100%;
 	text-transform:capitalize;
 
 }
@@ -190,3 +194,93 @@
 	font-weight:bold;
 }
 /*end our doctor*/
+/*start our blog*/
+.blogs{
+	height:800px;
+}
+.blogs h1{
+	text-align:center;
+	text-transform:capitalize;
+}
+.blogs .ourblog{
+	/*background-color:#F00;*/
+	padding:20px;
+	border-radius:10px;
+	border:1px solid #563d7c;
+	overflow:hidden;
+	margin-bottom:10px;
+	transition:all 1s;
+}
+.blogs .ourblog:hover{
+	background-color:#563d7c;
+	font-color:#FFF;
+}
+.blogs .ourblog:hover .textBlog p{
+	color:#FFF;
+}
+.blogs .ourblog:hover .textBlog span{
+	color:#fff;
+}
+.blogs .ourblog .imgblog{
+	float:left;
+	/*background-color:#F00;*/
+	width:50px;
+}
+.blogs .ourblog:hover .imgblog img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.blogs .ourblog .textBlog span{
+	margin-top:20px;
+	margin-bottom:5px;
+}
+.blogs .ourblog .textBlog p{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.blogs .ourblog .textBlog{
+	/*margin:auto;*/
+	float:right;
+	width:80%;
+}
+.mytop{
+	font-weight:bold;
+	
+}
+/*end our blog*/
+/*start personal*/
+.personal{
+	
+	padding:60px;
+	background-image:url('assets/photo-1519494140681-8b17d830a3e9.png');
+}
+.personal h1{
+	text-align:center;
+	text-transform:uppercase;
+}
+.personal .welper{
+	padding-top:20px;
+	width:100%;
+}
+.personal .welper input[type="text"], [type="email"]{
+	padding:10px;
+	width:100%;
+	margin-bottom:20px;
+}
+.personal .welper textarea{
+	width:100%;
+	height:200px;
+	padding:10px;
+	margin-bottom:20px;
+}
+.our{
+	width:100%;
+	margin-bottom:20px;
+}
+.personal .welper span{
+	text-align:center;
+}
+.privecy{
+	text-align:center;
+}
+/*end personal*/
